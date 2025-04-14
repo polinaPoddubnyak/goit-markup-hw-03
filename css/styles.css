@@ -298,9 +298,6 @@ section {
 }
 
 .footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
   margin-left: 156px;
 }
 
@@ -318,5 +315,4 @@ section {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 120px;
 }

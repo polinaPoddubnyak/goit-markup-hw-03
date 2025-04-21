@@ -126,14 +126,6 @@ section {
 }
 
 /* ====== Hero Section ====== */
-.hero .container {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -145,12 +137,14 @@ section {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
   max-width: 496px;
 }
 
 .hero-button {
   background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -231,6 +225,7 @@ section {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-info {
